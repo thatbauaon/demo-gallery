@@ -1,11 +1,20 @@
 ## Getting Started
 
 # Gallery Mosaic
+Framework: NextJS
 Language: TypeScript
 NodeVersion: v20.9.0
 
 CSS: Tailwind
 CSS Framework: DaisyUI
+
+# Server
+DigitalOcean
+1 GB Memory
+1 Intal vCPU
+25 GB Disk
+SGP1
+OS: Ubuntu 20.04 (LTS) x64
 
 # Sorfware Architecture
 
