@@ -9,7 +9,7 @@ CSS Framework: DaisyUI
 
 # Sorfware Architecture
 
-```sh
+```mermaid
 ---
 title: Animal example
 ---
@@ -39,7 +39,7 @@ classDiagram
 
 ```
 
-```sh
+```mermaid
 architecture-beta
 
 group api(server)[Server]
