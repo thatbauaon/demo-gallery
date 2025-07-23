@@ -50,12 +50,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Deploy
 
-# login for pull image
-
-```sh
-docker login registry.gitlab.com
-```
-
 # build image
 
 ```sh
@@ -66,4 +60,20 @@ docker build --platform linux/amd64 -t sasukefc/demo-gallery:v1 .
 
 ```sh
 docker push sasukefc/demo-gallery:v1
+```
+
+# setup docker-compose in server
+```sh
+version: "3.8"
+
+services:
+  demo-gallery-nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
 ```
