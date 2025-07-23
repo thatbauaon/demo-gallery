@@ -9,6 +9,7 @@ CSS Framework: DaisyUI
 
 # Sorfware Architecture
 
+```sh
 ---
 title: Animal example
 ---
@@ -36,6 +37,7 @@ classDiagram
         +run()
     }
 
+```
 
 ```sh
 architecture-beta
